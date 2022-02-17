@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+    .square {
+        aspect-ratio: 1/1;
+    }
+}
+
+.frame {
+    margin: 10px black;
+    padding: 10px black;
+}
